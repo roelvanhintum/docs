@@ -1419,7 +1419,7 @@ If disabled, an alternate queue worker *must* be set up separately, either as an
 `queue/run` command every minute:
 
 ```cron
-** * * * * /path/to/project/craft queue/run
+* * * * * /path/to/project/craft queue/run
 ```
 
 ::: tip
